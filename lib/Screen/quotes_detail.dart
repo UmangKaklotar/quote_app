@@ -149,13 +149,15 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                   Uint8List? imageBytes = await screenshotController.captureFromWidget(
                                     Stack(alignment: Alignment.center, children: [
                                       Container(
-                                        height: height,
-                                        width: width,
-                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['image']}"), fit: BoxFit.cover)),
+                                        padding: const EdgeInsets.all(20),
+                                        height: 350,
+                                        width: 400,
+                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['bgImg']}"), fit: BoxFit.cover)),
                                         child: Center(
                                           child: Text(
                                             "${e['quote']}",
-                                            style: const TextStyle(color: Colors.white, fontSize: 20),
+                                            textAlign: TextAlign.center,
+                                            style: const TextStyle(color: Colors.black, fontSize: 20, fontFamily: 'lobster'),
                                           ),
                                         ),
                                       ),
@@ -170,6 +172,8 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                   ));
+
+
                                 },
                               ),
                               IconButton(
@@ -291,13 +295,15 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                   Uint8List? imageBytes = await screenshotController.captureFromWidget(
                                     Stack(alignment: Alignment.center, children: [
                                       Container(
-                                        height: height,
-                                        width: width,
-                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['image']}"), fit: BoxFit.cover)),
+                                        padding: const EdgeInsets.all(20),
+                                        height: 350,
+                                        width: 400,
+                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['bgImg']}"), fit: BoxFit.cover)),
                                         child: Center(
                                           child: Text(
                                             "${e['quote']}",
-                                            style: const TextStyle(color: Colors.white, fontSize: 20),
+                                            textAlign: TextAlign.center,
+                                            style: const TextStyle(color: Colors.black, fontSize: 20, fontFamily: 'lobster'),
                                           ),
                                         ),
                                       ),
@@ -312,6 +318,8 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                   ));
+
+
                                 },
                               ),
                               IconButton(
@@ -433,13 +441,15 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                   Uint8List? imageBytes = await screenshotController.captureFromWidget(
                                     Stack(alignment: Alignment.center, children: [
                                       Container(
-                                        height: height,
-                                        width: width,
-                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['image']}"), fit: BoxFit.cover)),
+                                        padding: const EdgeInsets.all(20),
+                                        height: 350,
+                                        width: 400,
+                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['bgImg']}"), fit: BoxFit.cover)),
                                         child: Center(
                                           child: Text(
                                             "${e['quote']}",
-                                            style: const TextStyle(color: Colors.white, fontSize: 20),
+                                            textAlign: TextAlign.center,
+                                            style: const TextStyle(color: Colors.black, fontSize: 20, fontFamily: 'lobster'),
                                           ),
                                         ),
                                       ),
@@ -454,6 +464,8 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                   ));
+
+
                                 },
                               ),
                               IconButton(
@@ -625,13 +637,15 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                   Uint8List? imageBytes = await screenshotController.captureFromWidget(
                                     Stack(alignment: Alignment.center, children: [
                                       Container(
-                                        height: height,
-                                        width: width,
-                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['image']}"), fit: BoxFit.cover)),
+                                        padding: const EdgeInsets.all(20),
+                                        height: 350,
+                                        width: 400,
+                                        decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${e['bgImg']}"), fit: BoxFit.cover)),
                                         child: Center(
                                           child: Text(
                                             "${e['quote']}",
-                                            style: const TextStyle(color: Colors.white, fontSize: 20),
+                                            textAlign: TextAlign.center,
+                                            style: const TextStyle(color: Colors.black, fontSize: 20, fontFamily: 'lobster'),
                                           ),
                                         ),
                                       ),
@@ -646,6 +660,8 @@ class _QuoteDetailState extends State<QuoteDetail> {
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                   ));
+
+
                                 },
                               ),
                               IconButton(
