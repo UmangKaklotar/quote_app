@@ -6,4 +6,7 @@ class MyColor {
   static Color grey = Colors.grey;
   static Color red = Colors.red;
   static Color yellow = Colors.yellow;
+  static Color blue = Colors.blue;
+  static Color green = Colors.green;
+  static Color deepOrange = Colors.deepOrange;
 }
